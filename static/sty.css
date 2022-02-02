@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: auto;
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../static/Images/bunner1.jpg");
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-attachment: fixed;
+}
+
+
+.welcome-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 300px;
+    /* margin: 10% 20% 30% 30%; */
+    text-align: center;
+}
+
+.welcome-text h1 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.welcome-text p {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 0;
+    line-height: 1.5;
+}
+
+.welcome-text h1 span {
+    color: #17c4a4;
+}
+
+.welcome-text a {
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+    transition: all 1s ease-out;
+    outline: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.welcome-text a:hover {
+    background: #fff;
+    color: rgb(3, 3, 3);
+    font-weight: bolder;
+}
+
+
+/*resposive*/
+
+@media (max-width:920px) {
+    .wrapper {
+        width: 100%;
+    }
+    /* .nav-area {
+        float: none;
+        margin-top: 0;
+    } */
+    /* .nav-area li a {
+        padding: 5px;
+        font-size: 11px;
+    }
+    .nav-area {
+        text-align: center;
+    } */
+    .welcome-text {
+        width: 100%;
+        height: auto;
+        margin: 50px 0;
+    }
+    .welcome-text h1 {
+        font-size: 25px;
+    }
+    .welcome-text p {
+        font-size: 11px;
+    }
+}
+
+
+/* style coding for the second page*/

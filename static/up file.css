@@ -1,0 +1,150 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../static/Images/calculator-concept-illustration_114360-1239.jpg");
+    background-position: auto;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+.forms-header h2 {
+    text-align: center;
+    margin-top: 60px;
+    font-weight: bolder;
+    padding-bottom: 5px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.forms-header span {
+    display: block;
+    width: 75px;
+    height: 4px;
+    background-color: rgba(45, 227, 200);
+    text-align: center;
+    margin: auto;
+     
+}
+
+.forms {
+    text-align: center;
+    color: #fff;
+
+}
+
+
+.second-form .btn {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #ccc;
+    padding: 1px  18px;
+    background-color: transparent;
+    transition: all 1s ease-out;
+    font-weight: 10px;
+    letter-spacing: 1p;
+    outline: none;
+}
+
+.second-form .btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+.results-header h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-left: 250px;
+    margin-top: 50px;
+
+}
+
+.results-header span {
+    display: block;
+    width: 265px;
+    height: 4px;
+    background-color: rgba(45, 227, 200);
+    margin-left: 255px;
+    
+}
+
+.results {
+    margin-left: 250px;
+    margin-top: 20px;
+    font-weight: 12px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.path1 {
+    margin-left: 10px;
+}
+.path2 {
+    margin-left: 120px;
+    margin-right: 99px;
+}
+.split {
+    margin-left: 200px;
+    margin-right: 40px;
+}
+/* .btn {
+    margin-left: 20px;
+} */
+.submit {
+    padding: 1px 20px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: all 1s ease-out;
+}
+
+.submit:hover {
+    background-color: white;
+    color: black;
+     
+}
+@media only screen and (max-width: 920px) {
+    form input {
+        width: 50%;
+    }
+    .form1 .file-2{
+        margin-top: 12px;
+    }
+    .form1 .split-1 {
+        margin-bottom: 12px;
+        margin-top: 12px;
+    }
+    .second-form .path2{
+        /* margin-left: 5px; */
+        margin-bottom: 12px;
+        margin-top: 12px;
+        margin-left: -3px;
+        margin-right: 10px;
+    }
+    .second-form .split{
+        margin-bottom: 12px;
+        /* margin-left: -3px; */
+        margin-right: 140px;
+    }
+    .second-form .path1 {
+        margin-left: 3px;
+         
+    }
+    .results p {
+        margin-left: -95px;
+    }
+    .results-header {
+        margin-left: -95px;
+
+    }
+
+
+}
